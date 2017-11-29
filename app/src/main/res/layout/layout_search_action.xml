@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/little_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/acitonbar_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_toLeftOf="@+id/acitonbatr_righttext"
+        android:background="@drawable/search_bg2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <TextView
+            android:id="@+id/search_action_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新房"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/search_action_down"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/search_action_type"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@mipmap/icon_down"/>
+
+       <EditText
+           android:layout_marginLeft="5dp"
+           android:layout_toRightOf="@id/search_action_down"
+           android:textColor="@android:color/black"
+           android:hint="搜索"
+           android:focusable="true"
+           android:textColorHint="@android:color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@android:color/transparent"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/acitonbatr_righttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="取消"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>

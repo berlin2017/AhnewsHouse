@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyFullScreenTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="MyHomeTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="MyTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">false</item>
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+
+    </style>
+
+    <style name="SearchTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">false</item>
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <item name="android:statusBarColor">@color/little_white</item>
+    </style>
+</resources>
